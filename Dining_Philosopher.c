@@ -21,7 +21,7 @@ int main(){
    
    for(int i=0; i<5; i++)
 	{
-		a[i] = i;
+	    a[i] = i;
             pthread_create(&tid[i], NULL, philosopher, (void*) &a[i]);	
 	}
    
