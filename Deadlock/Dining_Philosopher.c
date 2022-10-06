@@ -50,4 +50,3 @@ void* philosopher(void *num){
 void eat(int phil){
 	printf("\nPhilsopher %d is eating", phil);
 }
-
