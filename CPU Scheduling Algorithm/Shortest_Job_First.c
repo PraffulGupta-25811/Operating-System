@@ -1,5 +1,8 @@
 // Shortest Job First (SJF)  (Non Pre-emptive)
 
+// Intuition: SJF non pre-emptive all logic is same as FCFS only difference is just sort the processes
+// based on their burst time first and then whole code is same as FCFS
+
 #include<stdio.h>
  
 int main()
