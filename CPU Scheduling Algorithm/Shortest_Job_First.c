@@ -63,7 +63,7 @@ int main()
     }
  
     avwt= (float) avwt/i;
-    avtat =(float)avtat/i;
+    avtat = (float)avtat/i;
     
     printf("\n\nAverage Waiting Time:%f",avwt);
     printf("\nAverage Turnaround Time:%f",avtat);
