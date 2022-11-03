@@ -15,6 +15,7 @@ int main(){
     if(p > 0){      // parent process
         printf("Parent passing value to child\n");
         write(fd[1], "hello\n", 6);     // fd[1] is the write end
+        sleep(1);
         
     }else{         // child process
         
