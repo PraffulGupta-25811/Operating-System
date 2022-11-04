@@ -7,11 +7,10 @@
 
 int main()
 {
-	int i;
     void* shared_memory;
     char buff[100];
-
     int shmid;
+    
     shmid = shmget((key_t)2345, 1024, 0666|IPC_CREAT);
     printf("key of shared memory is %d\n", shmid);
 
@@ -40,11 +39,10 @@ int main()
 
 int main()
 {
-	int i;
     void* shared_memory;
     char buff[100];
-
     int shmid;
+
     shmid = shmget((key_t)2345, 1024, 0666|IPC_CREAT);
     printf("key of shared memory is %d\n", shmid);
 
